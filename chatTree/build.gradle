@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'com.korostelev.ru'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'ChatTree'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
