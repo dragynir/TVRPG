@@ -172,7 +172,7 @@ public class GameLogic {
     }
 
     public GameState getStartState(){
-        return startGameState;
+        return new GameState(startGameState);
     }
 
     private void moveToCoord(Coordinate coordinate) {

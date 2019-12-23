@@ -25,7 +25,7 @@ public class MoveInstruction implements InterpretInstruction {
                 try {
                     Thread.sleep(delay);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    return false;
                 }
             }
         }

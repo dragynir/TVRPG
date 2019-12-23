@@ -56,7 +56,7 @@ public class Interpreter {
                 try {
                     Thread.sleep(stepsDelay);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    return gameLogic.finish();
                 }
             }
         }

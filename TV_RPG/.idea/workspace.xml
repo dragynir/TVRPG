@@ -2,36 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7563048f-206c-49a6-b636-13170759b13a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/TemporaryCodeStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/LevelsMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/MAP_BACKGROUND.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/after.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/game_configs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/AnimButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/GameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/LevelsMapView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/RoundedBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/diolog_views/BackToMapDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/diolog_views/ExitDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/diolog_views/GameResultDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/view_bars/GameControlBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/view_bars/OptionBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FileTransporter/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FileTransporter/src/main/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServerTransport/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerTransport/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/GameLogic/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GameLogic/GameLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/save" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/save" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/ChatNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/ChatNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/ChatTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/ChatTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/NodeConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/NodeConnection.java" afterDir="false" />
@@ -54,11 +38,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/GameView.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="117">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6484#6485#0" expanded="true" />
+                <element signature="e#6535#6536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,55 +65,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Parser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1591">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Parser/AcceptableInstructions.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2723#2724#0" expanded="true" />
-                <element signature="e#2759#2760#0" expanded="true" />
-                <element signature="e#2903#2904#0" expanded="true" />
-                <element signature="e#2890#2891#0" expanded="true" />
-                <element signature="e#2935#2936#0" expanded="true" />
-                <element signature="e#3118#3119#0" expanded="true" />
-                <element signature="e#3175#3176#0" expanded="true" />
-                <element signature="e#3407#3408#0" expanded="true" />
-                <element signature="e#3451#3452#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_0/save">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -123,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="28" selection-start-line="28" selection-end-line="29" selection-end-column="57" />
+            <state relative-caret-position="164">
+              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,38 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/GameProcessView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="138" column="32" lean-forward="true" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3949#3950#0" expanded="true" />
-                <element signature="e#3988#3989#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2025">
-              <caret column="17" selection-start-column="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6484#6485#0" expanded="true" />
-                <element signature="e#6504#6505#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/LevelsMapView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="225">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,12 +107,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/ScreenManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="200">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2876#2877#0" expanded="true" />
+                <element signature="e#2903#2904#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3383#3384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,6 +144,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>GameLogic</find>
+      <find>restart</find>
+      <find>run</find>
+      <find>startGameState</find>
+      <find>Thread.sleep</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/res/game_configs.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/LevelsMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" />
@@ -231,15 +181,17 @@
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/AcceptableInstructions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/GameView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" />
       </list>
     </option>
   </component>
@@ -265,6 +217,56 @@
               <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
               <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GameLogic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitedClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -274,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577110745575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577112810059" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,18 +334,17 @@
       <workItem from="1576917816440" duration="13285000" />
       <workItem from="1576932959753" duration="5062000" />
       <workItem from="1576989365869" duration="6926000" />
-      <workItem from="1577099440241" duration="10806000" />
+      <workItem from="1577099440241" duration="12857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63295000" />
+    <option name="totallyTimeSpent" value="65346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.388102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.388102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,34 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="124" column="6" selection-start-line="124" selection-start-column="6" selection-end-line="124" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,23 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,28 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret column="17" selection-start-column="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6504#6505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="28" selection-start-line="28" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/GameProcessView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -757,31 +695,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2759#2760#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3175#3176#0" expanded="true" />
-            <element signature="e#3407#3408#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+            <element signature="e#6535#6536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2903#2904#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3383#3384#0" expanded="true" />
           </folding>
         </state>
       </provider>

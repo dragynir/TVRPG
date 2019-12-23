@@ -34,6 +34,8 @@ public class GameProcess implements GameController {
     private Parser parser;
     private Interpreter interpreter;
 
+    private Thread gameThread;
+
     // private Map<String, Integer> gameConfigs;
 
 
@@ -128,6 +130,14 @@ public class GameProcess implements GameController {
     }
 
     public void runCode(){
+
+
+
+        if(null != gameThread && gameThread.isAlive()){
+            return;
+        }
+
+
         boolean result =  parser.parse();
         if(!result){
             JOptionPane.showMessageDialog(screenManager,
@@ -135,17 +145,13 @@ public class GameProcess implements GameController {
         }else{
 
 
-            Thread thread = new Thread(new Runnable() {
+            gameThread = new Thread(new Runnable() {
                 @Override
                 public void run() {
                     interpreter.run();
                 }
             });
-            thread.start();
-
-
-
-
+            gameThread.start();
         }
     }
 
