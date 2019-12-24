@@ -1,5 +1,6 @@
 package view;
 
+import javax.sound.sampled.Clip;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
@@ -8,7 +9,9 @@ import java.util.Map;
 
 import UnitedClasses.IconSet;
 import UnitedClasses.R;
+import UnitedClasses.R_PATH;
 import controllers.*;
+import music.GameSounds;
 
 public class ScreenManager extends JFrame{
 
@@ -17,6 +20,7 @@ public class ScreenManager extends JFrame{
 
     private Map<String, GameController> controllers;
 
+    private Clip backgroundClip;
 
 
     public ScreenManager(){
@@ -62,17 +66,32 @@ public class ScreenManager extends JFrame{
         UIManager.put("OptionPane.errorDialog.border.background", Color.white);
 
 
+        backgroundClip = GameSounds.getClipSound(R_PATH.BACKGOUND_SOUND);
 
+        if(null != backgroundClip){
+            //clip.start();
+            backgroundClip.loop(20);
+        }
     }
 
 
     public void openLevel(int level_number){
+
+        if(null != backgroundClip){
+            //clip.start();
+           // backgroundClip.stop();
+        }
+
         GameProcess game_controller = new GameProcess(this, level_number);
         rootPanel.add(game_controller.getView(), GameProcess.NAME);
         cardLayout.show(rootPanel, GameProcess.NAME);
     }
 
     public void changePanel(String screen_name){
+
+        if(null != backgroundClip){
+            backgroundClip.loop(20);
+        }
         cardLayout.show(rootPanel , screen_name);
     }
 

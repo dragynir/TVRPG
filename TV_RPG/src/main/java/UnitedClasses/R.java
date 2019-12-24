@@ -35,21 +35,36 @@ public class R {
     public static final int OPTION_BUTTON_SIZE_X = 100;
     public static final int OPTION_BUTTON_SIZE_Y = 100;
 
+    public static final int TEXT_AREA_ROWS = 32;
+    public static final int TEXT_AREA_COLS = 30;
+    public static final int FONT_SIZE = 15;
 
-    public static final String HELP_INFO = "help info";
+
+    public static final String HELP_INFO = "" +
+            "Type code to textarea. You can use functions:\n" +
+            " moveLeft(int),\n moveRight(int),\n moveUp(int),\n moveDown(int)\n" +
+            "and repeat(int){} to make cycle.\n" +
+            "Your goal is to reach gold.\n" +
+            "Avoid spikes on the map!\n\n"
+            ;
     public static final String configs_file = "game_configs.txt";
     public static final String config_line_regex = "\\s*([a-z_]+):\\s([\\d*]+)\\s*";
 
-    public static final int LVL_BUTTON_SIZE = 60;
-    public static final int LVL_BUTTON_RADIUS = 10;
+    public static final int LVL_BUTTON_SIZE = 200;
+    public static final int LVL_BUTTON_RADIUS = 200;
 
 
     public static final String LVL_BUTTON_BACKGROUND = "maps_background";
     public static final String GAME_BACKGROUND = "game_background";
     public static final String CAT_IMAGE = "cat_image";
+    public static final String GHOST_IMAGE = "ghost_image";
+    public static final String GOLD_IMAGE = "gold_image";
+
     public static final String ROCK_IMAGE = "rock_image";
     public static final String SPIKE_IMAGE = "spike_image";
     public static final String GAME_VIEW_BACK = "game_view";
+
+
 
 
     public static final String BACK_TO_MAP_IMAGE = "back";
@@ -66,4 +81,8 @@ public class R {
 
     public static final String RUN_IMAGE = "run";
     public static final String RUN_PRESSED_IMAGE = "run_pressed";
+
+    public static final String ISLAND_IMAGE = "island";
+    public static final String ISLAND_USE_IMAGE = "island_use";
+
 }

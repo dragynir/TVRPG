@@ -17,6 +17,9 @@ public class GameView extends JPanel {
     private ImageIcon icon_cat;
     private ImageIcon icon_rock;
     private ImageIcon icon_spike;
+    private ImageIcon icon_ghost;
+    private ImageIcon icon_gold;
+
 
     public GameView(GameProcessView view){
         setPreferredSize(new Dimension(R.GAME_VIEW_SIZE_X, R.GAME_VIEWS_SIZE_Y));
@@ -33,6 +36,8 @@ public class GameView extends JPanel {
         icon_cat =  (ImageIcon) IconSet.getIconByName(R.CAT_IMAGE);
         icon_rock =  (ImageIcon) IconSet.getIconByName(R.ROCK_IMAGE);
         icon_spike =  (ImageIcon) IconSet.getIconByName(R.SPIKE_IMAGE);
+        icon_ghost =  (ImageIcon) IconSet.getIconByName(R.GHOST_IMAGE);
+        icon_gold =  (ImageIcon) IconSet.getIconByName(R.GOLD_IMAGE);
     }
 
 
@@ -67,8 +72,8 @@ public class GameView extends JPanel {
 
 
             for(Coordinate c : currGameState.escapes){
-                //g.drawImage(icon_rock.getImage(), c.x * R.GAME_CELL_SIZE,
-                        //c.y * R.GAME_CELL_SIZE, this);
+                g.drawImage(icon_gold.getImage(), c.x * R.GAME_CELL_SIZE,
+                        c.y * R.GAME_CELL_SIZE, this);
             }
 
 
@@ -76,19 +81,16 @@ public class GameView extends JPanel {
 
 
             for(Character c: currGameState.characters){
-
-                if(!c.isAlive){
-
-                }
-
-
                 Coordinate pos = c.position;
-                //g2.drawImage(null, pos.x * R.GAME_CELL_SIZE,
-                        //pos.y * R.GAME_CELL_SIZE, this);
-                g2.drawImage(icon_cat.getImage(), pos.x * R.GAME_CELL_SIZE,
-                        pos.y * R.GAME_CELL_SIZE, this);
-
-
+                if(c.isAlive){
+                    //g2.drawImage(null, pos.x * R.GAME_CELL_SIZE,
+                    //pos.y * R.GAME_CELL_SIZE, this);
+                    g2.drawImage(icon_cat.getImage(), pos.x * R.GAME_CELL_SIZE,
+                            pos.y * R.GAME_CELL_SIZE, this);
+                }else{
+                    g2.drawImage(icon_ghost.getImage(), pos.x * R.GAME_CELL_SIZE,
+                            pos.y * R.GAME_CELL_SIZE, this);
+                }
             }
 
 

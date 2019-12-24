@@ -1,6 +1,8 @@
 {
 repeat(17) {
 moveRight(1);
+}
+repeat(17){
 moveDown(1);
 }
 }

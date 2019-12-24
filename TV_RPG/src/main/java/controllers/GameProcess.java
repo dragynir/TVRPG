@@ -3,14 +3,18 @@ package controllers;
 import Instructions.InstructionList;
 import Interpreter.Interpreter;
 import Parser.Parser;
-import UnitedClasses.GameState;
-import UnitedClasses.R;
-import UnitedClasses.R_PATH;
-import UnitedClasses.TemporaryCodeStorage;
+import UnitedClasses.*;
+import music.GameSounds;
 import view.GameProcessView;
 import view.GameView;
+import view.LevelsMapView;
 import view.ScreenManager;
 
+import javax.print.attribute.standard.Media;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.LineUnavailableException;
 import javax.swing.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -144,15 +148,50 @@ public class GameProcess implements GameController {
                     "Compile error");
         }else{
 
-
             gameThread = new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    interpreter.run();
+
+                    GameResult result =  interpreter.run();
+
+                    manageGameResult(result);
+
                 }
             });
             gameThread.start();
         }
+    }
+
+    private void manageGameResult(GameResult result){
+
+        String resultString  = "You win";
+        Clip result_clip = null;
+        if(!result.isWin){
+            result_clip = GameSounds.getClipSound(R_PATH.LOSE_SOUND);
+            if(null != result_clip){
+                // result_clip.start();
+            }
+            resultString = "Lose";
+        }
+
+        String[] options = new String[] {"back to map", "retry", "next level"};
+
+        int response = JOptionPane.showOptionDialog(null, resultString, "Title",
+                JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
+                null, options, options[0]);
+
+        if(0 == response){
+            if(null != result_clip){
+                result_clip.stop();
+            }
+            screenManager.changePanel(LevelsMap.NAME);
+        }else if(2 == response){
+            if(null != result_clip){
+                result_clip.stop();
+            }
+            screenManager.openLevel(level_number + 1);
+        }
+
     }
 
 

@@ -2,21 +2,29 @@ package view;
 
 import UnitedClasses.IconSet;
 import UnitedClasses.R;
+import UnitedClasses.R_PATH;
 import controllers.LevelsMap;
+import music.GameSounds;
 
+import javax.sound.sampled.Clip;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
+
+// TODO set background music
+
 public class LevelsMapView extends JPanel {
     private ScreenManager screenManager;
-    private List<JButton> levels_buttons;
+    private List<JToggleButton> levels_buttons;
 
     private JToggleButton exitButton;
+
+
 
     public LevelsMapView(ScreenManager screenManager){
 
@@ -34,6 +42,9 @@ public class LevelsMapView extends JPanel {
         contentPane.setIcon(icon);
         contentPane.setLayout( new BorderLayout() );
         setCon( contentPane );*/
+
+
+
     }
 
     public void initView(int levels_count){
@@ -67,6 +78,8 @@ public class LevelsMapView extends JPanel {
                 if(JOptionPane.YES_OPTION == result){
                     screenManager.exit();
                 }
+
+
             }
         });
         add(exitButton);
@@ -76,22 +89,57 @@ public class LevelsMapView extends JPanel {
 
         Random random = new Random();
 
+        ImageIcon island_icon = (ImageIcon)IconSet.getIconByName(R.ISLAND_IMAGE);
+        ImageIcon island_use_icon = (ImageIcon)IconSet.getIconByName(R.ISLAND_USE_IMAGE);
+
         for(int i = 0; i < levels_count; ++i){
+            JToggleButton levelButton = AnimButtons.getNewButton(island_icon, null);
 
-            JButton levelButton = new JButton("+");
+            // TODO lock sometimes, no shine
+            levelButton.setRolloverIcon(island_use_icon);
+            //levelButton.setSelectedIcon(island_icon);
 
-            x_pos = R.LVL_BUTTON_SIZE  * i * 2 + R.LVL_BUTTON_SIZE;
+
+            levelButton.setPreferredSize(
+                    new Dimension(R.LVL_BUTTON_SIZE, R.LVL_BUTTON_SIZE));
+
+
+
+
+            x_pos = R.LVL_BUTTON_SIZE  * i * 2;
 
             y_pos = random.nextInt(R.SCREEN_SIZE_Y / 2);
 
             levelButton.setBounds(x_pos, y_pos, R.LVL_BUTTON_SIZE, R.LVL_BUTTON_SIZE);
 
-            levelButton.setBorder(new RoundedBorder(R.LVL_BUTTON_RADIUS)); //10 is the radius
-            levelButton.setForeground(Color.GREEN);
+            //levelButton.setBorder(new RoundedBorder(R.LVL_BUTTON_RADIUS)); //10 is the radius
+            //levelButton.setForeground(Color.GREEN);
+
+
+
+            /*levelButton.addMouseListener(new MouseAdapter() {
+
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    if (!getVisibleRect().contains(e.getPoint())) {
+                        levelButton.setIcon(island_use_icon);
+                    }
+                }
+
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    levelButton.setIcon(island_icon);
+                }
+            });*/
+
+            JToggleButton finalLevelButton = levelButton;
 
             levelButton.addActionListener(e ->
-                    screenManager.openLevel(levels_buttons.indexOf(levelButton)));
+            {
+                    screenManager.openLevel(levels_buttons.indexOf(finalLevelButton));
+                    finalLevelButton.setSelected(false);
 
+            });
 
 
             // levelButton.setFocusPainted(false);

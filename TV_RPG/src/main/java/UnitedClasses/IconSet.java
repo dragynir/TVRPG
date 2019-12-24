@@ -15,6 +15,15 @@ public class IconSet {
         icons.put(R.SPIKE_IMAGE, new ImageIcon(R_PATH.SPIKE_IMAGE));
         icons.put(R.GAME_VIEW_BACK, new ImageIcon(R_PATH.GAME_VIEW_BACK));
 
+        icons.put(R.GOLD_IMAGE, new ImageIcon(R_PATH.GOLD_IMAGE));
+        icons.put(R.GHOST_IMAGE, new ImageIcon(R_PATH.GHOST_IMAGE));
+
+
+
+        icons.put(R.ISLAND_IMAGE, new ImageIcon(R_PATH.ISLAND_IMAGE));
+        icons.put(R.ISLAND_USE_IMAGE, new ImageIcon(R_PATH.ISLAND_USE_IMAGE));
+
+
 
         icons.put(R.SAVE_IMAGE, new ImageIcon(R_PATH.SAVE_IMAGE));
         icons.put(R.SAVE_PRESSED_IMAGE, new ImageIcon(R_PATH.SAVE_PRESSED_IMAGE));

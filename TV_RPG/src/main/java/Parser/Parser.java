@@ -110,6 +110,7 @@ public class Parser {
                     if(!(semicolonMatcher.find() && 0 == semicolonMatcher.start())) {
                         return null;
                     }
+                    processedCode = processedCode.substring(semicolonMatcher.end());
                     continue;
                 }
 
@@ -161,7 +162,8 @@ public class Parser {
                     if(!(semicolonMatcher.find() && 0 == semicolonMatcher.start())) {
                         return null;
                     }
-                    processedCode = processedCode.substring(semicolonMatcher.end());
+
+
                 }
                 // check instruction is correct
                 if(!acceptableInstructions.isCorrect(currentInstruction.toString())) {

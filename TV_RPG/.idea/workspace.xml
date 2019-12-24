@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TV_RPG:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7563048f-206c-49a6-b636-13170759b13a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TV_RPG_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/music/GameSounds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FileTransporter/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FileTransporter/src/main/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ServerTransport/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerTransport/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GameLogic/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GameLogic/GameLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GameRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Parser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/IconSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/IconSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/UnitedClasses/R_PATH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/UnitedClasses/R_PATH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/controllers/GameProcess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/controllers/GameProcess$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/controllers/GameProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/controllers/GameProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/GameProcessView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/GameProcessView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/GameView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/LevelsMapView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/LevelsMapView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/LevelsMapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/LevelsMapView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/ScreenManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/ScreenManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/view/view_bars/OptionBar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/view_bars/OptionBar$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/game_configs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/game_configs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/level.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/level.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/save" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_0/save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_1/level.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_1/level.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_1/save" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_1/save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_2/level.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_2/level.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/levels/level_2/save" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/levels/level_2/save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/LevelsMapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LevelsMapView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/ChatNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/ChatNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/ChatTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/ChatTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chatTree/src/main/java/NodeConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatTree/src/main/java/NodeConnection.java" afterDir="false" />
@@ -41,76 +71,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="3153">
+              <caret line="139" column="21" lean-forward="true" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6484#6485#0" expanded="true" />
-                <element signature="e#6535#6536#0" expanded="true" />
+                <element signature="e#6536#6537#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -118,15 +85,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+            <state relative-caret-position="59">
+              <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2876#2877#0" expanded="true" />
-                <element signature="e#2903#2904#0" expanded="true" />
-                <element signature="e#3326#3327#0" expanded="true" />
-                <element signature="e#3383#3384#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_3/level.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_1/level.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-393">
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_2/level.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_0/level.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -163,11 +162,9 @@
         <option value="$PROJECT_DIR$/src/game_configs.txt" />
         <option value="$PROJECT_DIR$/src/main/java/view/RoundedBorder.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/GameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/res/game_configs.txt" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/LevelsMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/diolog_views/ExitDiolog.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/diolog_views/GameResultDiolog.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/diolog_views/BackToMapDiolog.java" />
@@ -177,21 +174,29 @@
         <option value="$PROJECT_DIR$/src/main/java/view/diolog_views/ExitDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/view_bars/OptionBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/TemporaryCodeStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/LevelsMapView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser/AcceptableInstructions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/GameView.java" />
         <option value="$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GameRunner.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/view/GameProcessView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/GameView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/music/GameSounds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/LevelsMapView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/game_configs.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/view/ScreenManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/GameProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UnitedClasses/R.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/levels/level_3/level.map" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/levels/level_2/level.map" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/levels/level_1/level.map" />
       </list>
     </option>
   </component>
@@ -208,14 +213,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
               <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +262,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GameLogic" type="462c0819:PsiDirectoryNode" />
+              <item name="Parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +270,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="level_0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="level_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="level_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="level_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
@@ -267,30 +329,41 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedClasses" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TV_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TV_RPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577112810059" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577186612201" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Java\Projects\TV_RPG\src\main\java\res" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Projects\TV_RPG\src\main\java\resources" />
       <recent name="C:\Java\Projects\TV_RPG\src\main\java\res" />
       <recent name="C:\Java\Projects\TV_RPG\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\Projects\TV_RPG\src\main\java\res" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,16 +408,31 @@
       <workItem from="1576932959753" duration="5062000" />
       <workItem from="1576989365869" duration="6926000" />
       <workItem from="1577099440241" duration="12857000" />
+      <workItem from="1577114469085" duration="5887000" />
+      <workItem from="1577163301303" duration="2704000" />
+      <workItem from="1577173262649" duration="1488000" />
+      <workItem from="1577176895841" duration="1496000" />
+      <workItem from="1577180479907" duration="5897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65346000" />
+    <option name="totallyTimeSpent" value="82818000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.252349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -353,13 +441,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.388102" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.388102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
@@ -381,98 +469,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="730" column="19" selection-start-line="730" selection-start-column="19" selection-end-line="730" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="805" column="25" selection-start-line="805" selection-start-column="25" selection-end-line="805" selection-end-column="25" />
-          <folding>
-            <element signature="e#33242#33243#0" expanded="true" />
-            <element signature="e#33327#33328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/game_configs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="799" selection-start-line="799" selection-end-line="799" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundedBorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
-          <folding>
-            <element signature="e#5661#5662#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/after.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/game_view_back.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/bluemoon.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LevelsMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/javax/swing/JOptionPane.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -485,16 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1550">
           <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/AnimButtons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -555,23 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -622,37 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parser/AcceptableInstructions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/LevelsMapView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/ScreenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -666,28 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1591">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameProcessView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="138" column="32" lean-forward="true" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_0/save">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -695,10 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="550">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,33 +630,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6535#6536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="625">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -743,15 +653,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/RepeatInstruction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="575">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/MoveInstruction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LevelsMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/AnimButtons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/island.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/island_use.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameProcessView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -760,24 +710,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Interpreter/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state relative-caret-position="675">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        <state relative-caret-position="1600">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#3326#3327#0" expanded="true" />
-            <element signature="e#3383#3384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/IconSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/GameSounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/R_PATH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/LevelsMapView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/game_configs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/ScreenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="113" column="29" lean-forward="true" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_2/gameplayConfig.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UnitedClasses/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_2/level.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_0/level.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_3/level.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/levels/level_1/level.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3153">
+          <caret line="139" column="21" lean-forward="true" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+            <element signature="e#6536#6537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GameProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="167" column="32" lean-forward="true" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,10 +858,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>TV_RPG:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

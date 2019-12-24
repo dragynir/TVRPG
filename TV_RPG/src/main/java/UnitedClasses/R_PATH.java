@@ -4,7 +4,12 @@ public class R_PATH {
     public static final String res_path = "src\\main\\java\\resources\\";
     public static final String MAP_BACKGROUND = res_path + "MAP_BACKGROUND.png";
     public static final String GAME_BACKGROUND = res_path + "bluemoon.png";
+
     public static final String CAT_IMAGE = res_path + "cat.png";
+    public static final String GHOST_IMAGE = res_path + "ghost.png";
+
+    public static final String GOLD_IMAGE = res_path + "gold.png";
+
     public static final String ROCK_IMAGE = res_path + "rock.png";
     public static final String SPIKE_IMAGE = res_path + "spike.png";
 
@@ -26,6 +31,14 @@ public class R_PATH {
 
     public static final String SAVE_IMAGE = res_path + "save_btn.png";
     public static final String SAVE_PRESSED_IMAGE = res_path + "save_btn_pressed.png";
+
+    public static final String ISLAND_IMAGE = res_path + "island.png";
+    public static final String ISLAND_USE_IMAGE = res_path + "island_use.png";
+
+
+    public static final String LOSE_SOUND = res_path + "sounds/lose_sound.wav";
+    public static final String BACKGOUND_SOUND = res_path + "sounds/background_sound.wav";
+
 }
 
 

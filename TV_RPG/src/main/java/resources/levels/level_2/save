@@ -1,3 +1,8 @@
+
+
 {
-moveDown(1);
+	repeat(10){
+	moveDown(10);
+	moveRight(10);;
+}
 }

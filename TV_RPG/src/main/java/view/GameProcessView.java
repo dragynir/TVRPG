@@ -26,10 +26,17 @@ public class GameProcessView extends JPanel {
         this.gameProcess = gameProcess;
 
         gameView = new GameView(this);
-        textField = new TextArea(null, 40, 56);
+        textField = new TextArea(null, R.TEXT_AREA_ROWS, R.TEXT_AREA_COLS);// 40, 56
+        textField.setFont(new Font("Skia",Font.PLAIN ,R.FONT_SIZE));
+
+
+
         //textField.setPreferredSize( new Dimension( R.CODE_FIELD_SIZE_X, 0 ) );
-        textField.setBackground(new Color(159,255,255));
+        //textField.setBackground(new Color(159,255,255));
+        //textField.setForeground(new Color(43,64,255));
         textField.setForeground(new Color(43,64,255));
+        textField.setBackground(new Color(255,255,255));
+
 
         optionBar = new OptionBar(gameProcess);
         //optionBar.setAlignmentX(Component.RIGHT_ALIGNMENT);
